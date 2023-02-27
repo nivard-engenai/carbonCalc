@@ -31,23 +31,23 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center py-5">
-        <div className="my-2 p-4 flex flex w-3/4 bg-gray-100 rounded-xl">
+        <div className="p-4 flex flex w-10/12 bg-gray-100 rounded-t-xl items-center justify-center">
           <Title name="Annual Carbon Footprint" />
         </div>
-        <div className="my-8 flex w-2/3 bg-inherit gap-2 bg-gray-50 rounded">
-          <div className="flex flex-col basis-1/2 bg-green-700 p-8 rounded-md">
+        <div className="flex flex-col md:flex-row w-2/3 my-8  bg-inherit gap-2 bg-gray-50 rounded">
+          <div className="w-full bg-green-700 p-8 rounded-md">
             <h2 className="text-xl text-white">Your annual Carbon Footprint</h2>
             <h1 className="text-3xl font-bold text-white mt-5">
               {carbonFootprint} <span className="text-base font-normal">C02mt</span>
             </h1>
             <button
               type="button"
-              className="bg-white w-1/2 rounded mt-24 h-12 text-slate-700 text-md font-semibold"
+              className="h-auto p-4 bg-white w-auto rounded mt-24 h-12 text-slate-700 text-sm lg:text-md font-semibold"
             >
               Offset your footprint
             </button>
           </div>
-          <div className="flex flex-col basis-1/2 p-5 gap-2">
+          <div className="w-full p-5 gap-2">
             <h1 className="text-green-700 font-semibold text-lg ">
               Time to Offset
             </h1>

@@ -87,7 +87,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center py-5">
-        <div className="p-4 flex flex w-10/12 bg-gray-100 rounded-t-xl">
+        <div className="p-4 flex flex w-10/12 bg-gray-100 rounded-t-xl items-center justify-center">
           <Title name="Pet Footprint" />
         </div>
         <div className="h-20 mb-5 flex items-center justify-center w-10/12">
